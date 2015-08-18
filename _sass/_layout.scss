@@ -67,7 +67,7 @@ body.loaded {
 @media (max-width: 768px) {
 
   body {
-    padding-top: $logo-height / 2;
+    padding-top: 80px;
   }
 
   .container {
@@ -82,7 +82,7 @@ body.loaded {
     .logo {
       display: block;
       position: relative;
-      margin: 0 auto $logo-height / 4 auto;
+      margin: 0 auto 52px auto;
     }
   }
 
