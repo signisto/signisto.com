@@ -1,6 +1,6 @@
 title: Signisto
 
 assets:
-  debug: true
+  gzip: false
   sources:
   - _assets/stylesheets
