@@ -1,4 +1,6 @@
 title: Signisto
 
-sass:
-  style: compressed
+assets:
+  debug: true
+  sources:
+  - _assets/stylesheets
