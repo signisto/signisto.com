@@ -4,3 +4,7 @@ assets:
   gzip: false
   sources:
   - _assets/stylesheets
+
+exclude:
+- Gemfile
+- Gemfile.lock
