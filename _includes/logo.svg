@@ -1,0 +1,14 @@
+<svg viewBox="0 0 422 696" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>logo</title>
+    <defs></defs>
+    <g class="main" stroke="white" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="logo" sketch:type="MSLayerGroup" transform="translate(210.878874, 343.687372) rotate(30.200000) translate(-210.878874, -343.687372) translate(9.378874, 42.187372)" stroke-color="white" stroke-linecap="round" stroke-width="112">
+            <g id="right" transform="translate(302.246508, 401.998255) scale(-1, 1) translate(-302.246508, -401.998255) translate(201.746508, 201.498255)" sketch:type="MSShapeGroup">
+                <path d="M200.531377,0.137376727 C89.7996588,0.137376727 0.03386482,89.6804268 0.03386482,200.137377 C0.03386482,310.594327 89.7996588,400.137377 200.531377,400.137377 L200.531377,400.137377" id="left"></path>
+            </g>
+            <g id="left" transform="translate(0.246508, 0.998255)" sketch:type="MSShapeGroup">
+                <path d="M200.531377,0.137376727 C89.7996588,0.137376727 0.03386482,89.6804268 0.03386482,200.137377 C0.03386482,310.594327 89.7996588,400.137377 200.531377,400.137377 L200.531377,400.137377"></path>
+            </g>
+        </g>
+    </g>
+</svg>
