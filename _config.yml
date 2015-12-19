@@ -1,7 +1,10 @@
 title: Signisto
 
+gems:
+- jekyll-assets
+
 assets:
-  gzip: false
+  digest: true
   sources:
   - _assets/stylesheets
 
