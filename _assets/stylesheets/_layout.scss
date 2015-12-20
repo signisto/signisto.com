@@ -1,25 +1,13 @@
-body {
-  background: $brand-color;
-  color: $brand-color;
-}
+$logo-width: 180px;
+$logo-height: 180px;
 
-$logo-width: 84px;
-$logo-height: 140px;
-
-$container-width: 480px;
+$container-width: $logo-width;
 $container-height: $logo-height;
-$transition-duration: 1.6s;
 
-body.loaded {
-  color: #fff;
-  .container {
-    color: #fff;
-    .logo svg {
-      g {
-        stroke: #ffffff;
-      }
-    }
-  }
+body {
+  background: #fff;
+  color: $brand-color;
+  padding-top: 80px;
 }
 
 .container {
@@ -33,21 +21,15 @@ body.loaded {
   overflow: hidden;
   padding-left: $logo-width + 50;
   color: $brand-color;
-  transition: color $transition-duration;
   .logo {
     position: absolute;
     top: 0;
     left: 0;
     width: $logo-width;
     height: $logo-height;
-    svg {
+    img {
       width: 100%;
       height: 100%;
-      g {
-        stroke: #ffffff;
-        fill: #ffffff;
-        transition: stroke $transition-duration;
-      }
     }
   }
   .title {
@@ -59,17 +41,12 @@ body.loaded {
   .tagline {
     opacity: 0.8;
     font-style: italic;
-    line-height: 1;
+    line-height: 1.5;
     padding: 0;
     margin: 0;
+    color: #000;
   }
 }
-
-@media (max-width: 768px) {
-
-  body {
-    padding-top: 80px;
-  }
 
   .container {
     position: relative;
@@ -83,8 +60,7 @@ body.loaded {
     .logo {
       display: block;
       position: relative;
-      margin: 0 auto 52px auto;
+      margin: 0 auto 20px auto;
     }
   }
 
-}
