@@ -46,6 +46,14 @@ body {
     margin: 0;
     color: #000;
   }
+  .social-links {
+    .text-twitter {
+      color: $twitter-color;
+      &:hover {
+        color: darken($twitter-color, 10%);
+      }
+    }
+  }
 }
 
   .container {
