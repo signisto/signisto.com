@@ -51,14 +51,41 @@ a {
 .mt-2 {
   margin-top: $gutter-width * 2;
 }
+.mt-3 {
+  margin-top: $gutter-width * 3;
+}
+.mt-4 {
+  margin-top: $gutter-width * 4;
+}
+.mt-5 {
+  margin-top: $gutter-width * 5;
+}
+.mb-1 {
+  margin-bottom: $gutter-width;
+}
 .mb-2 {
   margin-bottom: $gutter-width * 2;
 }
 .mb-3 {
   margin-bottom: $gutter-width * 3;
 }
+.mb-4 {
+  margin-bottom: $gutter-width * 4;
+}
+.mb-5 {
+  margin-bottom: $gutter-width * 5;
+}
+.mr-1 {
+  margin-right: $gutter-width;
+}
+.mr-2 {
+  margin-right: $gutter-width * 2;
+}
 
 // Typography
+.text-center {
+  text-align: center;
+}
 .text-right {
   text-align: right;
 }
