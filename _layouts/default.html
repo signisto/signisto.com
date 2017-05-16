@@ -20,11 +20,7 @@
 
     {% include page-footer.html %}
 
-    <script>
-      window.onload = function () {
-        document.body.className = 'loaded';
-      };
-    </script>
+    {% javascript application %}
 
 {% if site.environment == 'production' %}
     <script>
@@ -36,6 +32,5 @@
       ga('send', 'pageview');
     </script>
 {% endif %}
-
   </body>
 </html>
