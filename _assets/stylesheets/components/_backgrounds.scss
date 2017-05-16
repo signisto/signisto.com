@@ -1,0 +1,21 @@
+.bg-primary {
+  background-color: $brand-color;
+  color: #fff;
+}
+
+.bg-bitmap {
+  background-image: image_url('bitmap@1x.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.bg-dark {
+  background-color: $brand-dark-color;
+  color: #fff;
+}
+
+.bg-grey {
+  background: #aaa;
+  color: #fff;
+}

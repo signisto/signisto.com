@@ -26,6 +26,17 @@ a {
   width: 50%;
 }
 
+// Spacing
+.mt-1 {
+  margin-top: $gutter-width;
+}
+.mt-2 {
+  margin-top: $gutter-width * 2;
+}
+.mb-2 {
+  margin-bottom: $gutter-width * 2;
+}
+
 // Typography
 .text-uppercase {
   text-transform: uppercase;

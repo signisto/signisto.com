@@ -1,53 +1,16 @@
-$logo-size: 240px;
-
-body {
-}
-
 .container {
-  width: 728px;
-  margin: 0 auto;
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1064px) {
   .container {
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 @media screen and (min-width: 1320px) {
   .container {
-    width: 1280px;
-  }
-}
-
-.viewport-stretch {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.viewport-stretch-title {
-  font-size: 2.4em;
-}
-
-.bg-primary {
-  background-color: $brand-color;
-  color: #fff;
-}
-.bg-bitmap {
-  background-image: image_url('bitmap@1x.png');
-  // background-image: image_url('network-demo.jpg');
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-size: auto;
-}
-
-.logo {
-  width: $logo-size;
-  height: $logo-size;
-  img {
-    width: 100%;
-    height: 100%;
+    max-width: 1280px;
   }
 }
 

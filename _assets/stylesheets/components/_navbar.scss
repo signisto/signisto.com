@@ -7,20 +7,21 @@ $navbar-item-margin-y: 10px;
   height: $navbar-height;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid $border-brand-dark-color;
+  border-bottom: 1px solid transparent;
 }
 .navbar-fixed-top {
   position: fixed;
   top: 0;
   left: 0;
   &.bg-primary {
-    @include transition(background-color .4s);
-    background-color: rgba($brand-color, 0.4);
+    @include transition(background-color .4s, border-color .4s);
+    background-color: rgba($brand-color, 0.1);
   }
 }
 body.is-scrolled {
   .navbar-fixed-top.bg-primary {
     background-color: rgba($brand-color, 1);
+    border-bottom-color: $border-brand-dark-color
   }
 }
 .navbar-right {
