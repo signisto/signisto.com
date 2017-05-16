@@ -1,11 +1,12 @@
 .page-footer {
-  border-top: 1px solid $border-dark-color;
 }
 
 // Footer lists
 .page-footer-categories {
-  padding: $gutter-width 0;
+  border-top: 1px solid $border-dark-color;
+  border-bottom: 1px solid #cacaca;
   background: #fafafa;
+  padding: $gutter-width 0;
 }
 .category-title {
   font-size: 1em;
