@@ -25,6 +25,21 @@ a {
 .w-50 {
   width: 50%;
 }
+.w-75 {
+  width: 75%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-33 {
+  width: 33%;
+}
+.w-67 {
+  width: 67%;
+}
+.align-items-right {
+  align-items: flex-end;
+}
 
 // Spacing
 .mt-1 {
@@ -36,8 +51,14 @@ a {
 .mb-2 {
   margin-bottom: $gutter-width * 2;
 }
+.mb-3 {
+  margin-bottom: $gutter-width * 3;
+}
 
 // Typography
+.text-right {
+  text-align: right;
+}
 .text-uppercase {
   text-transform: uppercase;
 }

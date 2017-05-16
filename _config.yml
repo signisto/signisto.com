@@ -6,10 +6,13 @@ gems:
 
 assets:
   digest: true
+  features:
+    automatic_img_size: false
   sources:
   - _assets/stylesheets
   - _assets/javascripts
   - _assets/images
+  - _assets/fonts
 
 exclude:
 - Gemfile

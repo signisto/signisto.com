@@ -1,0 +1,30 @@
+.marketing-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 60%;
+  margin-top: $gutter-width * 4;
+  & > div {
+    flex: 1 1 auto;
+    // align-items: center;
+  }
+  .marketing-block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .marketing-block-img {
+    // background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  img {
+    width: 180px;
+    max-width: 100%;
+  }
+  h2, p {
+    margin-top: 0;
+    margin-bottom: $gutter-width;
+  }
+}

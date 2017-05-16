@@ -15,7 +15,17 @@
   color: #fff;
 }
 
+.bg-light {
+  background-color: $brand-light-color;
+  color: #fff;
+}
+
 .bg-grey {
   background: #aaa;
   color: #fff;
+}
+
+.bg-red {
+  background-color: #933;
+  color: #f7f7f7;
 }
