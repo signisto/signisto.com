@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: stretch;
   width: 60%;
-  margin-top: $gutter-width * 4;
+  margin-top: $navbar-height + $gutter-width;
   & > div {
     flex: 1 1 auto;
     // align-items: center;
