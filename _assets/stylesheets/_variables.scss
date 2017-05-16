@@ -1,4 +1,6 @@
 $brand-color: #3097BB;
+$brand-light-color: lighten($brand-color, 20%);
+$brand-dark-color: darken($brand-color, 20%);
 
 $text-color: #fff;
 $body-bg: $brand-color;
@@ -14,6 +16,7 @@ $line-height-computed: $line-height-base;
 
 // Borders
 $border-dark-color: #333;
+$border-brand-dark-color: darken($brand-color, 20%);
 
 // Spacing
 $gutter-width: 20px;

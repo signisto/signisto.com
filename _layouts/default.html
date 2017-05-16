@@ -12,7 +12,11 @@
   </head>
   <body>
 
+    {% include page-header.html %}
+
     {{ content }}
+
+    {% include page-footer.html %}
 
     <script>
       window.onload = function () {

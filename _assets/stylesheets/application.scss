@@ -1,8 +1,10 @@
 @charset "utf-8";
 
+@import "mixins";
 @import "variables";
 @import "normalize";
 @import "scaffolding";
 @import "layout";
 
+@import "components/navbar";
 @import "components/page-footer";
