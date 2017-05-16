@@ -1,0 +1,13 @@
+.page-footer {
+  border-top: 2px solid $border-dark-color;
+  padding: $gutter-width;
+}
+
+.page-footer-social-links {
+  text-align: center;
+  padding: $gutter-width 0;
+  a {
+    display: inline-block;
+    margin: 0 $gutter-width;
+  }
+}

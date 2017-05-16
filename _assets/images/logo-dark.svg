@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="170px" viewBox="0 0 150 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="signisto-logo" transform="translate(-53.000000, -43.000000)">
+            <g id="logo" transform="translate(53.000000, 43.000000)">
+                <polygon id="Fill-1" fill="#51BBE0" points="39.0468881 94.569021 0.956328671 74.6043357 38.7185664 55.4274126 76.3496853 74.9987413"></polygon>
+                <polygon id="Fill-2" fill="#47A5CE" points="75.4315385 -0.00020979021 0.956013986 36.2515385 0.956013986 74.6043357 38.7193007 55.4284615 75.4315385 37.8270629"></polygon>
+                <polygon id="Fill-3" fill="#3F9DBE" points="75.4315385 -0.00020979021 75.4315385 37.8270629 112.537133 55.4284615 149.907063 74.6043357 149.907063 36.2515385"></polygon>
+                <polygon id="Fill-4" fill="#51BBE0" points="112.602797 75.1297552 149.906643 95.0944406 112.602797 114.271364 75.3 94.700035"></polygon>
+                <polygon id="Fill-5" fill="#47A5CE" points="149.906748 133.447552 75.4312238 169.699301 75.4312238 131.870979 112.536818 114.270629 149.906748 95.0947552"></polygon>
+                <polygon id="Fill-6" fill="#3F9DBE" points="0.955699301 133.447552 75.4312238 169.699301 75.4312238 131.870979 38.718986 114.270629 0.955699301 95.0947552"></polygon>
+                <polygon id="Fill-7" fill="#2F97BB" points="0.955699301 36.2511189 0.955699301 74.6039161 38.718986 55.428042"></polygon>
+                <polygon id="Fill-8" fill="#50B9D5" points="149.906748 36.2511189 149.906748 74.6039161 112.536818 55.428042"></polygon>
+                <polygon id="Fill-9" fill="#2F97BB" points="149.906748 133.447552 149.906748 95.0947552 112.536818 114.270629"></polygon>
+                <polygon id="Fill-10" fill="#50B9D5" points="0.955699301 133.447552 0.955699301 95.0947552 39.0462587 114.270629"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
