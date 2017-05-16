@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="40px" viewBox="0 0 80 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>bitmap</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="12" font-family="AndaleMono, Andale Mono" opacity="0.32642663" font-weight="normal">
+        <g id="bitmap" fill="#EEEEEE">
+            <g id="One">
+                <text id="1">
+                    <tspan x="6" y="14">1</tspan>
+                </text>
+            </g>
+            <g id="One" transform="translate(60.000000, 20.000000)">
+                <text id="1">
+                    <tspan x="6" y="14">1</tspan>
+                </text>
+            </g>
+            <g id="One" transform="translate(40.000000, 20.000000)">
+                <text id="1">
+                    <tspan x="6" y="14">1</tspan>
+                </text>
+            </g>
+            <g id="One" transform="translate(40.000000, 0.000000)">
+                <text id="1">
+                    <tspan x="6" y="14">1</tspan>
+                </text>
+            </g>
+            <g id="Zero" transform="translate(20.000000, 20.000000)">
+                <text id="0">
+                    <tspan x="6" y="14">0</tspan>
+                </text>
+            </g>
+            <g id="Zero" transform="translate(20.000000, 0.000000)">
+                <text id="0">
+                    <tspan x="6" y="14">0</tspan>
+                </text>
+            </g>
+            <g id="Zero" transform="translate(60.000000, 0.000000)">
+                <text id="0">
+                    <tspan x="6" y="14">0</tspan>
+                </text>
+            </g>
+            <g id="Zero" transform="translate(0.000000, 20.000000)">
+                <text id="0">
+                    <tspan x="6" y="14">0</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

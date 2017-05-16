@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="https://marcqualie.com">
-    <title>Signisto</title>
-    <meta name="description" content="Software Development &amp; Consultancy">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Exo:400,800">
     {% stylesheet application %}
     <link rel="icon" href="/favicon.png">
   </head>
   <body>
 
-    {{ content }}
+    {% include navbar.html %}
 
-    <script>
-      window.onload = function () {
-        document.body.className = 'loaded';
-      };
-    </script>
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+    {% include page-footer.html %}
+
+    {% javascript application %}
 
 {% if site.environment == 'production' %}
     <script>
@@ -30,6 +32,5 @@
       ga('send', 'pageview');
     </script>
 {% endif %}
-
   </body>
 </html>

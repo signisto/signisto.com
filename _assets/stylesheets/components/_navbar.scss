@@ -1,0 +1,91 @@
+$navbar-height: 80px;
+$navbar-padding-y: 20px;
+$navbar-item-margin-y: 10px;
+
+.navbar {
+  width: 100%;
+  height: $navbar-height;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid transparent;
+}
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  &.bg-primary {
+    @include transition(background-color .4s, border-color .4s);
+    background-color: rgba($brand-color, 0.1);
+  }
+}
+body.is-scrolled {
+  .navbar-fixed-top.bg-primary {
+    background-color: rgba($brand-color, 1);
+    border-bottom-color: $border-brand-dark-color;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+}
+.navbar-right {
+  align-self: right;
+}
+
+// Brand
+.navbar-brand {
+  display: flex;
+  padding: $navbar-padding-y / 2;
+  font-family: $font-family-fancy;
+  &, &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.navbar-logo {
+  display: block;
+  width: $navbar-height - 20;
+  height: $navbar-height - 20;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.navbar-title {
+  display: block;
+  font-size: 32px;
+  margin-left: $navbar-padding-y;
+  height: $navbar-height - $navbar-padding-y;
+  line-height: $navbar-height - $navbar-padding-y;
+}
+
+// Navigation
+.navbar-navigation {
+  display: flex;
+  margin: 0;
+  padding: ($navbar-padding-y / 2) 0;
+  height: $navbar-height;
+}
+.navbar-navigation-item {
+  display: block;
+  padding: 0;
+  margin: $navbar-item-margin-y / 2;
+  margin-right: ($navbar-padding-y + $navbar-item-margin-y) / 2;
+  margin-left: 0;
+  height: $navbar-height - $navbar-padding-y - $navbar-item-margin-y;
+  line-height: $navbar-height - $navbar-padding-y - $navbar-item-margin-y + 3;
+}
+.navbar-navigation-link {
+  @include transition(background-color .4s, color .4s);
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
+  padding: 0 $navbar-padding-y;
+  text-decoration: none;
+  background-color: $brand-dark-color;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  &:hover {
+    background-color: darken($brand-color, 10%);
+    color: #eee;
+    text-decoration: none;
+  }
+}

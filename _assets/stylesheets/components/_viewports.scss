@@ -1,0 +1,46 @@
+.viewport-stretch {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.viewport-stretch-title {
+  margin-top: 0;
+  margin-bottom: $gutter-width;
+  font-size: 3.0em;
+  padding: 0;
+}
+.viewport-stretch-tagline {
+  margin-top: 0;
+  margin-bottom: $gutter-width * 2;
+}
+
+.viewport-header {
+  padding-top: $navbar-height;
+  width: 100vw;
+  height: 40vh;
+  min-height: 250px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.viewport-header-title {
+  @extend .container;
+  margin-top: 0;
+  margin-bottom: $gutter-width;
+  font-size: 2.4em;
+}
+.viewport-header-tagline {
+  @extend .container;
+  font-size: 1em;
+}
+.viewport-header-center {
+  text-align: center;
+}
+
+.viewport-stretch, .viewport-header {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}

@@ -1,14 +1,26 @@
 title: Signisto
+description: Software Development &amp; Consultancy
+contact:
+  email: enquiries@signisto.com
+  twitter: signisto
+  facebook: signisto
+  linkedin: signisto
 
 gems:
 - jekyll-assets
 
 assets:
   digest: true
+  features:
+    automatic_img_size: false
   sources:
   - _assets/stylesheets
+  - _assets/javascripts
   - _assets/images
+  - _assets/fonts
 
 exclude:
 - Gemfile
 - Gemfile.lock
+- README.md
+- bin

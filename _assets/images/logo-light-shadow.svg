@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="408px" viewBox="0 0 368 408" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-1.4%" y="-1.2%" width="103.9%" height="103.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.8 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="signisto-business-card" transform="translate(-338.000000, -146.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(340.000000, 148.000000)">
+                <polygon id="Fill-3" fill="#FEFEFE" points="94.24 223.357143 0 176.297143 90.12 131.657143 182.16 177.217143"></polygon>
+                <polygon id="Fill-5" fill="#BBE2F5" points="0 85.44 180 0 180 89.16 91.24 130.64 0 175.84"></polygon>
+                <polygon id="Fill-7" fill="#DEF1FB" points="358.971429 85.44 178.971429 0 178.971429 89.16 268.651429 130.64 358.971429 175.84"></polygon>
+                <polygon id="Fill-9" fill="#FEFEFE" points="266.891429 176.914286 359.271429 223.974286 268.971429 269.174286 178.971429 223.054286"></polygon>
+                <polygon id="Fill-11" fill="#BBE2F5" points="358.971429 314.628571 178.971429 400.068571 178.971429 310.908571 268.651429 269.428571 358.971429 224.228571"></polygon>
+                <polygon id="Fill-13" fill="#DEF1FB" points="0 314.628571 180 400.068571 180 310.908571 91.24 269.428571 0 224.228571"></polygon>
+                <polygon id="Fill-15" fill="#A3D9EF" points="0 86.4 0 176.8 90.12 132.16"></polygon>
+                <polygon id="Fill-17" fill="#F0F8FE" points="359.665714 85.4 359.665714 175.8 270.485714 131.16"></polygon>
+                <polygon id="Fill-19" fill="#A3D9EF" points="359.805714 314.628571 359.805714 224.228571 269.485714 269.428571"></polygon>
+                <polygon id="Fill-21" fill="#F0F8FE" points="0 314.685714 0 224.285714 90.5 269.125714"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
