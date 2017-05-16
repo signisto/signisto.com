@@ -1,13 +1,45 @@
 .page-footer {
-  border-top: 2px solid $border-dark-color;
-  padding: $gutter-width;
+  border-top: 1px solid $border-dark-color;
 }
 
+// Footer lists
+.page-footer-categories {
+  padding: $gutter-width 0;
+  background: #fafafa;
+}
+.category-title {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: $gutter-width;
+}
+.category-list, .category-body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: $gutter-width;
+  font-size: 0.8em;
+  line-height: 1.4em;
+}
+.category-list > li {
+  margin-bottom: 0.8em;
+}
+
+// Social links
 .page-footer-social-links {
   text-align: center;
-  padding: $gutter-width 0;
+  padding: $gutter-width * 2 0 $gutter-width 0;
   a {
     display: inline-block;
     margin: 0 $gutter-width;
   }
+}
+
+// Copyright
+.page-footer-copyright {
+  text-align: center;
+  padding: $gutter-width 0 $gutter-width * 2 0;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 0.8em;
 }

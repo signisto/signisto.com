@@ -1,14 +1,27 @@
-* {
-  font-family: $font-family-base;
-}
-
+// Typography
 body {
+  font-family: $font-family-base;
   font-size: 16px;
 }
+a {
+  @include transition(color .4s);
+  color: $brand-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $brand-dark-color;
+  }
+}
 
+
+
+// Flex helpers
 .d-flex {
   display: flex;
 }
 .w-25 {
   width: 25%;
+}
+.w-50 {
+  width: 50%;
 }
