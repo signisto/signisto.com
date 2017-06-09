@@ -4,7 +4,7 @@
 }
 
 .bg-bitmap {
-  background-image: url(image_url('bitmap.png'));
+  background-image: image_url('bitmap.png');
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: auto;
