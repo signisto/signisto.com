@@ -1,7 +1,9 @@
 # Signisto Website
 
+https://signisto.com
+
 ## Theme
 
-```
-Brand Color: #3097BB
+``` scss
+$brand-color: #3097BB; // rgb(48, 151, 187)
 ```
