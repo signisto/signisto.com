@@ -6,7 +6,7 @@ contact:
   facebook: signisto
   linkedin: signisto
 
-gems:
+plugins:
 - jekyll-assets
 
 assets:
