@@ -88,6 +88,8 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
+    uglifier (4.1.4)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
@@ -95,6 +97,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-assets
+  sass
+  uglifier
 
 BUNDLED WITH
    1.16.1
