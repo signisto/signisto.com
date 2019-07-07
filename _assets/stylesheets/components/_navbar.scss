@@ -1,4 +1,5 @@
 $navbar-height: 80px;
+$navbar-height-mobile: 120px;
 $navbar-padding-y: 20px;
 $navbar-item-margin-y: 10px;
 
@@ -8,21 +9,25 @@ $navbar-item-margin-y: 10px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid transparent;
+  @media screen and (max-width: 728px) {
+    height: $navbar-height-mobile;
+  }
 }
 .navbar-fixed-top {
   position: fixed;
   top: 0;
   left: 0;
   &.bg-primary {
-    @include transition(background-color .2s, border-color .2s);
+    @include transition(background-color .2s, border-color .2s, top .2s);
     background-color: rgba($brand-color, 0);
   }
 }
 body.is-scrolled {
   .navbar-fixed-top.bg-primary {
-    background-color: rgba($brand-color, 1);
-    border-bottom-color: $border-brand-dark-color;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    top: 0 - $navbar-height;
+    @media screen and (max-width: 728px) {
+      top: 0 - $navbar-height-mobile;
+    }
   }
 }
 .navbar-right {
@@ -49,6 +54,7 @@ body.is-scrolled {
   display: block;
   width: $navbar-height - 20;
   height: $navbar-height - 20;
+  margin-top: auto;
   img {
     width: 100%;
     height: 100%;
