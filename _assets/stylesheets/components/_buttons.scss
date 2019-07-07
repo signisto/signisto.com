@@ -1,5 +1,5 @@
 .btn {
-  @include transition(background .4s, color .4s);
+  @include transition(background .2s, color .2s);
   display: inline-block;
   height: $form-element-height-base;
   line-height: $form-element-height-base;

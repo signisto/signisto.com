@@ -14,7 +14,7 @@ $navbar-item-margin-y: 10px;
   top: 0;
   left: 0;
   &.bg-primary {
-    @include transition(background-color .4s, border-color .4s);
+    @include transition(background-color .2s, border-color .2s);
     background-color: rgba($brand-color, 0);
   }
 }
@@ -83,7 +83,7 @@ body.is-scrolled {
   line-height: $navbar-height - $navbar-padding-y - $navbar-item-margin-y + 3;
 }
 .navbar-navigation-link {
-  @include transition(background-color .4s, color .4s);
+  @include transition(background-color .2s, color .2s);
   font-size: 18px;
   text-transform: uppercase;
   display: block;
