@@ -7,6 +7,24 @@
   border-bottom: 1px solid #cacaca;
   background: #fafafa;
   padding: $gutter-width 0;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    & > * {
+      width: 25%;
+    }
+    & > :nth-child(1) {
+      width: 50%;
+    }
+    @media screen and (max-width: 728px) {
+      flex-direction: column;
+      margin-left: $gutter-width;
+      & > * {
+        width: auto;
+      }
+    }
+  }
 }
 .category-title {
   font-size: 1em;
