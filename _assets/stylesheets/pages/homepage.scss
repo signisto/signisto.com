@@ -37,8 +37,9 @@ $button-spacing: 2rem;
     }
 
     @media screen and (max-width: 728px) {
-      padding: $button-spacing;
+      padding: 0 $button-spacing;
       margin-top: auto;
+      margin-bottom: $button-spacing;
 
       .btn {
         font-size: 1rem;
