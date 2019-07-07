@@ -19,6 +19,10 @@
     }
     @media screen and (max-width: 728px) {
       flex-direction: column;
+      margin-left: $gutter-width;
+      & > * {
+        width: auto;
+      }
     }
   }
 }
