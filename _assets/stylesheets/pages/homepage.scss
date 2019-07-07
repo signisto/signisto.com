@@ -1,0 +1,50 @@
+$button-spacing: 2rem;
+
+.page-homepage {
+  .viewport-stretch {
+    text-align: center;
+  }
+
+  .logo-main {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
+  .viewport-stretch-title {
+    font-size: 3rem;
+    @media screen and (max-width: 728px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  .viewport-stretch-tagline {
+    @media screen and (max-width: 728px) {
+      max-width: 90%;
+    }
+  }
+
+  .viewport-stretch-buttons {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+    .btn:not(:first-child) {
+      display: block;
+      margin-left: $button-spacing;
+    }
+
+    @media screen and (max-width: 728px) {
+      padding: $button-spacing;
+      margin-top: auto;
+
+      .btn {
+        font-size: 1rem;
+        padding: 0;
+        flex-grow: 1;
+      }
+    }
+  }
+}
