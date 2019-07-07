@@ -15,7 +15,7 @@ $navbar-item-margin-y: 10px;
   left: 0;
   &.bg-primary {
     @include transition(background-color .4s, border-color .4s);
-    background-color: rgba($brand-color, 0.1);
+    background-color: rgba($brand-color, 0);
   }
 }
 body.is-scrolled {
