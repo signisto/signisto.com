@@ -10,9 +10,9 @@
     {% asset application.css !type !integrity %}
     <link rel="icon" href="/favicon.png">
   </head>
-  <body>
 
     {% include navbar.html %}
+  <body{% if page.body-class %} class="{{ page.body-class }}"{% endif %}>
 
     <div class="page-content">
       {{ content }}
