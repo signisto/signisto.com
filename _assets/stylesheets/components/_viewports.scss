@@ -20,12 +20,16 @@
 .viewport-header {
   padding-top: $navbar-height;
   width: 100vw;
-  height: 40vh;
+  height: 48vh;
   min-height: 250px;
   display: flex;
   align-items: left;
   justify-content: center;
   flex-direction: column;
+
+  @media screen and (max-width: 728px) {
+    text-align: center;
+  }
 }
 .viewport-header-title {
   @extend .container;

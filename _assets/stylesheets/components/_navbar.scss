@@ -38,6 +38,12 @@ body.is-scrolled {
     color: #fff;
     text-decoration: none;
   }
+
+  @media screen and (max-width: 728px) {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
 }
 .navbar-logo {
   display: block;
@@ -54,6 +60,10 @@ body.is-scrolled {
   margin-left: $navbar-padding-y;
   height: $navbar-height - $navbar-padding-y;
   line-height: $navbar-height - $navbar-padding-y;
+
+  @media screen and (max-width: 728px) {
+    display: none;
+  }
 }
 
 // Navigation
@@ -87,5 +97,9 @@ body.is-scrolled {
     background-color: darken($brand-color, 10%);
     color: #eee;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 728px) {
+    display: none;
   }
 }
