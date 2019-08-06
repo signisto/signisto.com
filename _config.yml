@@ -6,6 +6,10 @@ contact:
   facebook: signisto
   linkedin: signisto
 
+# Override Jekyll defaults
+source: src
+destination: dist
+
 plugins:
 - jekyll-assets
 

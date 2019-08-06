@@ -1,4 +1,7 @@
-_site
-.sass-cache
+# Cache
 .asset-cache
 .jekyll-cache
+.sass-cache
+
+# Jekyll output directory
+dist
