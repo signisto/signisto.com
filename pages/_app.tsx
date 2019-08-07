@@ -14,14 +14,6 @@ interface Props {
 }
 
 export default class MyApp extends App<Props> {
-  static async getInitialProps({ Component, ctx }: AppContext) {
-    const pageProps = Component.getInitialProps ? await Component.getInitialProps(ctx) : {}
-
-    return {
-      pageProps,
-    }
-  }
-
   componentDidMount() {
     Router.events.on('routeChangeComplete', url => {
       console.log('$pageview', url)
