@@ -14,7 +14,7 @@ $brand-color: #3097BB; // rgb(48, 151, 187)
 
 ## Stack
 
-- [Jekyll](https://jekyllrb.com)
+- [Next.js](https://nextjs.org/)
 - [SCSS](https://sass-lang.com/documentation/syntax#scss)
 
 
@@ -22,5 +22,5 @@ $brand-color: #3097BB; // rgb(48, 151, 187)
 ## Running locally
 
 ``` bash
-bundle exec jekyll serve --watch
+yarn start:dev
 ```

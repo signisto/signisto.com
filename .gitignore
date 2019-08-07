@@ -1,7 +1,11 @@
 # Cache
-.asset-cache
-.jekyll-cache
-.sass-cache
+.next
 
-# Jekyll output directory
+# Dependencies
+node_modules
+
+# Output directory
 dist
+
+# Logs
+*.log

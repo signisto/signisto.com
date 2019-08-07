@@ -1,0 +1,34 @@
+import Head from 'next/head'
+
+import Footer from './Footer'
+import Navbar from './Navbar'
+
+import '../stylesheets/application.scss'
+
+const defaultTitle = 'Signisto'
+const defaultDescription = 'Software Development &amp; Consultancy'
+
+interface Props {
+  navbar?: boolean
+  footer?: boolean
+  title?: string
+  description?: string
+  children?: any
+}
+
+export default ({ navbar = true, footer = true, title = defaultTitle, description = defaultDescription, children }: Props) => (
+  <>
+    <Head>
+      <title>{title}</title>
+      <meta name="desription" content={description}/> }
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Exo:400,800"/>
+      <link rel="icon" href="/static/favicon.png"/>
+      <meta name="author" content="https://marcqualie.com"/>
+    </Head>
+    { navbar && <Navbar/> }
+    <div className="page-content">
+      { children }
+    </div>
+    { footer && <Footer/> }
+  </>
+)
