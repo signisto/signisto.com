@@ -1,6 +1,8 @@
+import { NextPage } from 'next'
+
 import Layout from '../components/Layout'
 
-export default () => (
+const Page: NextPage = () => (
   <Layout title="Signisto Privacy Policy">
     <div className="viewport-header bg-dark">
       <h1 className="viewport-header-title">
@@ -32,3 +34,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default Page

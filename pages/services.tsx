@@ -1,6 +1,8 @@
+import { NextPage } from 'next'
+
 import Layout from '../components/Layout'
 
-export default () => (
+const Page: NextPage = () => (
   <Layout title="Our Services">
     <div className="viewport-header bg-dark">
       <h1 className="viewport-header-title">
@@ -13,7 +15,7 @@ export default () => (
 
 
     {/* Software Development */}
-    <a name="software-development"></a>
+    <a id="software-development"></a>
     <div className="marketing-block">
       <div className="marketing-block-content">
         <h2>Software Development</h2>
@@ -35,7 +37,7 @@ export default () => (
 
 
     {/* Performance Consulting */}
-    <a name="performance-consulting"></a>
+    <a id="performance-consulting"></a>
     <div className="marketing-block">
       <div className="marketing-block-img">
         <img src="/static/images/icons/presentation.png"/>
@@ -56,7 +58,7 @@ export default () => (
 
 
     {/* Mobile Applications */}
-    <a name="mobile-development"></a>
+    <a id="mobile-development"></a>
     <div className="marketing-block">
       <div className="marketing-block-content">
         <h2>Mobile Application Development</h2>
@@ -77,7 +79,7 @@ export default () => (
 
 
     {/* Machine Learning */}
-    <a name="machine-learning"></a>
+    <a id="machine-learning"></a>
     <div className="marketing-block">
       <div className="marketing-block-img">
         <img src="/static/images/icons/cpu.png"/>
@@ -97,3 +99,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default Page

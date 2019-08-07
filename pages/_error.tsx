@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import Layout from '../components/Layout'
 
-class Error extends React.Component {
-  static getInitialProps({ res, err }) {
+interface Props {
+  statusCode: number
+}
+
+interface Context {
+  res?: any
+  err?: any
+}
+
+class Error extends Component<Props> {
+  static getInitialProps({ res, err }: Context) {
     const statusCode = res ? res.statusCode : err ? err.statusCode : null
     return { statusCode }
   }

@@ -1,7 +1,8 @@
-import Layout from '../components/Layout'
-import Head from 'next/head';
+import { NextPage } from 'next'
 
-export default () => (
+import Layout from '../components/Layout'
+
+const Page: NextPage = () => (
   <Layout title="About Signisto">
     <div className="viewport-header bg-dark">
       <h1 className="viewport-header-title">
@@ -13,3 +14,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default Page

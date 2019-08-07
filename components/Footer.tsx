@@ -33,16 +33,24 @@ export default () => (
           <h4 className="category-title">Services</h4>
           <ul className="category-list">
             <li>
-              <a href="/services#software-development">Software Development</a>
+              <Link href="/services#software-developmen">
+                <a>Software Development</a>
+              </Link>
             </li>
             <li>
-              <a href="/services#performance-consulting">Performance Consulting</a>
+              <Link href="/services#performance-consulting">
+                <a>Performance Consulting</a>
+              </Link>
             </li>
             <li>
-              <a href="/services#mobile-development">Mobile Applications</a>
+              <Link href="/services#mobile-development">
+                <a>Mobile Applications</a>
+              </Link>
             </li>
             <li>
-              <a href="/services#machine-learning">Machine Learning</a>
+              <Link href="/services#machine-learning">
+                <a>Machine Learning</a>
+              </Link>
             </li>
           </ul>
         </div>

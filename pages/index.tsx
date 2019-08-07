@@ -1,9 +1,9 @@
+import { NextPage } from 'next'
 import Link from 'next/link'
-import Head from 'next/head'
 
 import Layout from '../components/Layout'
 
-export default () => (
+const Page: NextPage = () => (
   <Layout navbar={false}>
     <div className="viewport-stretch bg-primary bg-bitmap">
       <img src="https://signisto.com/assets/logo-light-shadow-bd20ce7b42cf32c0d58d7869afd1fe84ee4f1248f03fb5b7c0efc739b20ac668.svg" alt="Signisto Logo" className="logo-main"/>
@@ -31,3 +31,5 @@ export default () => (
     </div>
   </Layout>
 )
+
+export default Page

@@ -1,6 +1,7 @@
+import React, { Component } from 'react'
 import Link from 'next/link'
 
-export default class Navbar extends React.Component {
+export default class Navbar extends Component {
   bodyClassNameIsScrolled = false
 
   componentDidMount() {
@@ -10,7 +11,7 @@ export default class Navbar extends React.Component {
     window.removeEventListener('scroll', this.onScroll.bind(this))
   }
 
-  onScroll(event) {
+  onScroll(event: Event) {
     if (window.scrollY > 50 && this.bodyClassNameIsScrolled === false) {
       document.body.className = document.body.className.trim() + ' is-scrolled';
       this.bodyClassNameIsScrolled = true;
