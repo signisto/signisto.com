@@ -1,9 +1,7 @@
 $button-spacing: 2rem;
 
-.page-homepage {
-  .viewport-stretch {
-    text-align: center;
-  }
+.page-homepage.viewport-stretch {
+  text-align: center;
 
   .logo-main {
     width: 240px;

@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 const Page: NextPage = () => (
   <Layout navbar={false}>
-    <div className="viewport-stretch bg-primary bg-bitmap">
+    <div className="page-homepage viewport-stretch bg-primary bg-bitmap">
       <img src="/static/images/logo-light-shadow.svg" alt="Signisto Logo" className="logo-main"/>
 
       <h1 className="viewport-stretch-title">
