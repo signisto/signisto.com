@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-import '../stylesheets/application.scss'
+import '../stylesheets/application.css'
 
 const defaultTitle = 'Signisto'
 const defaultDescription = 'Software Development &amp; Consultancy'
@@ -26,9 +26,7 @@ export default ({ navbar = true, footer = true, title = defaultTitle, descriptio
       <meta name="author" content="https://marcqualie.com"/>
     </Head>
     { navbar && <Navbar/> }
-    <div className="page-content">
-      { children }
-    </div>
+    { children }
     { footer && <Footer/> }
   </>
 )

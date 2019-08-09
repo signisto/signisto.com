@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next {
+  min-height: 100%;
+  @apply flex;
+  @apply flex-col;
+}
+
+.btn {
+  transition: all .4s;
+  @apply bg-blue-500;
+  @apply inline-block;
+  @apply text-white;
+  @apply py-2;
+  @apply px-4;
+  @apply rounded;
+  @apply shadow;
+}
+.btn:hover {
+  @apply shadow-md;
+  @apply bg-blue-600;
+}
+.btn:active {
+  @apply shadow-inner;
+}
+
+.btn-primary {
+  @apply bg-primary;
+}
+.btn-primary:hover {
+  @apply bg-primary-light;
+}
+.btn-primary:active {
+  @apply bg-primary-dark;
+}
+
+.btn-secondary {
+  @apply bg-secondary;
+}
+.btn-secondary:hover {
+  @apply bg-primary;
+}
+
+.btn-light {
+  @apply bg-gray-100;
+  @apply text-gray-900;
+}
+.btn-light:hover {
+  @apply bg-gray-200;
+}
+
+.bg-bitmap {
+  background-image: url('/static/images/bitmap.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+#navbar {
+  transition: top .3s;
+  top: 0;
+}
+body.is-scrolled #navbar {
+  top: -90px;
+}
+@media screen and (max-width: 728px) {
+  body.is-scrolled #navbar {
+    top: -90px;
+  }
+}
