@@ -35,7 +35,7 @@ export default class MyDocument extends Document<Props> {
     return (
       <html>
         <Head/>
-        <body>
+        <body className="h-screen">
           <Main/>
           <NextScript/>
 

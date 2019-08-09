@@ -23,26 +23,24 @@ export default class Navbar extends Component {
 
   render () {
     return (
-      <div className="navbar navbar-fixed-top bg-primary">
+      <div id="navbar" className="fixed flex w-full p-3">
         <Link href="/">
-          <a className="navbar-brand">
-            <span className="navbar-logo">
-              <img src="/static/images/logo-light-shadow.svg" alt="Signisto Logo"/>
-            </span>
-            <span className="navbar-title">
+          <a className="flex items-center text-white">
+            <img src="/static/images/logo-light-shadow.svg" alt="Signisto Logo" width="60" height="60"/>
+            <span className="ml-3 text-4xl">
               Signisto
             </span>
           </a>
         </Link>
-        <ul className="navbar-navigation navbar-right">
-          <li className="navbar-navigation-item">
-            <Link href="/about">
-              <a className="navbar-navigation-link">About Us</a>
+        <ul className="ml-auto hidden md:flex items-center">
+          <li>
+            <Link href="/services">
+              <a className="btn btn-primary">Services</a>
             </Link>
           </li>
-          <li className="navbar-navigation-item">
+          <li>
             <Link href="/contact-us">
-              <a className="navbar-navigation-link">Contact Us</a>
+              <a className="ml-4 btn btn-primary">Contact Us</a>
             </Link>
           </li>
         </ul>

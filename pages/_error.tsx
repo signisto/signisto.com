@@ -25,13 +25,15 @@ class Error extends Component<Props> {
 
     return (
       <Layout>
-        <div className="viewport-header bg-red">
-          <h1 className="viewport-header-title">
-            Error {statusCode}: {errorMessage}
-          </h1>
-          <p className="viewport-header-tagline">
-            {errorDescription}
-          </p>
+        <div className="viewport-header bg-red-800 text-white text-center pt-20">
+          <div className="container mx-auto py-32 xl:py-48">
+            <h1 className="text-4xl mb-4 font-bold">
+              Error {statusCode}: {errorMessage}
+            </h1>
+            <p>
+              {errorDescription}
+            </p>
+          </div>
         </div>
       </Layout>
     )

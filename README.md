@@ -15,7 +15,7 @@ $brand-color: #3097BB; // rgb(48, 151, 187)
 ## Stack
 
 - [Next.js](https://nextjs.org/)
-- [SCSS](https://sass-lang.com/documentation/syntax#scss)
+- [TailwindCSS](https://tailwindcss.com)
 
 
 
