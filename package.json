@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "lint": "tslint components/* pages/*",
     "start:dev": "next --hostname 0.0.0.0 -p 3000",
     "test": "jest test",
     "test:coverage": "jest --coverage test"
@@ -29,6 +30,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
-    "ts-jest": "^24.1.0"
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0"
   }
 }
