@@ -4,7 +4,7 @@
     "start:dev": "next --hostname 0.0.0.0 -p 3000"
   },
   "dependencies": {
-    "@types/node": "^12.7.0",
+    "@types/node": "^12.11.1",
     "@types/react": "^16.8.24",
     "@types/react-dom": "^16.8.5",
     "@zeit/next-css": "^1.0.1",
