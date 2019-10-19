@@ -18,5 +18,9 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: next build
-      - run: next export -o dist
+      - run:
+          name: next build
+          command: ./node_modules/.bin/next build
+      - run:
+          name: next export
+          command: ./node_modules/.bin/next export -o dist
