@@ -1,4 +1,4 @@
-import App, { Container, AppContext } from 'next/app'
+import App, { Container } from 'next/app'
 import Router from 'next/router'
 import React from 'react'
 
@@ -16,7 +16,7 @@ interface Props {
 export default class MyApp extends App<Props> {
   componentDidMount() {
     Router.events.on('routeChangeComplete', url => {
-      console.log('$pageview', url)
+      global.console.log('$pageview', url)
       if (window.ga) {
         window.ga('send', 'pageview', url)
       }

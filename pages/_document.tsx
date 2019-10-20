@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript, DocumentContext } from 'next/document'
+import Document, { DocumentContext, Head, Main, NextScript } from 'next/document'
 
 const { NODE_ENV } = process.env
 const GOOGLE_ANALYTICS_ID = 'UA-66480539-1'
@@ -35,7 +35,7 @@ export default class MyDocument extends Document<Props> {
     return (
       <html>
         <Head/>
-        <body className="h-screen">
+        <body className='h-screen'>
           <Main/>
           <NextScript/>
 
@@ -45,4 +45,3 @@ export default class MyDocument extends Document<Props> {
     )
   }
 }
-

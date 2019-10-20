@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React from 'react'
 
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -20,10 +21,10 @@ export default ({ navbar = true, footer = true, title = defaultTitle, descriptio
   <>
     <Head>
       <title>{title}</title>
-      <meta name="desription" content={description}/> }
-      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Exo:400,800"/>
-      <link rel="icon" href="/static/favicon.png"/>
-      <meta name="author" content="https://marcqualie.com"/>
+      <meta name='desription' content={description}/> }
+      <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Exo:400,800'/>
+      <link rel='icon' href='/static/favicon.png'/>
+      <meta name='author' content='https://marcqualie.com'/>
     </Head>
     { navbar && <Navbar/> }
     { children }
