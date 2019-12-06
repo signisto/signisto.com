@@ -11,7 +11,7 @@
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.8.5",
     "@zeit/next-css": "^1.0.1",
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.7.3",
     "cssnano": "^4.1.10",
     "next": "^9.1.2",
     "postcss-easy-import": "^3.0.0",
