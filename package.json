@@ -7,7 +7,7 @@
     "test:coverage": "jest --coverage test"
   },
   "dependencies": {
-    "@types/node": "^12.12.7",
+    "@types/node": "^13.7.4",
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.8.5",
     "@zeit/next-css": "^1.0.1",
