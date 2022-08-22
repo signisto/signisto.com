@@ -22,5 +22,5 @@ $brand-color: #3097BB; // rgb(48, 151, 187)
 ## Running locally
 
 ``` bash
-yarn start:dev
+yarn dev
 ```

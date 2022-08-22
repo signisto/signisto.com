@@ -21,18 +21,19 @@ class Error extends Component<Props> {
     const { statusCode } = this.props
 
     const errorMessage = statusCode === 404 ? 'Page not found' : 'Unknown error'
-    const errorDescription = statusCode === 404 ? 'The page you were looking for is not here' : 'Plese try again later'
+    const errorDescription =
+      statusCode === 404
+        ? 'The page you were looking for is not here'
+        : 'Please try again later'
 
     return (
       <Layout>
-        <div className='viewport-header bg-red-800 text-white text-center pt-20'>
-          <div className='container mx-auto py-32 xl:py-48'>
+        <div className='viewport-header bg-red-800 text-white text-center h-full items-center justify-center content-center flex'>
+          <div className='container mx-auto py-20 xl:py-20'>
             <h1 className='text-4xl mb-4 font-bold'>
               Error {statusCode}: {errorMessage}
             </h1>
-            <p>
-              {errorDescription}
-            </p>
+            <p>{errorDescription}</p>
           </div>
         </div>
       </Layout>

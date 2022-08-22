@@ -1,35 +1,9 @@
-import App, { Container } from 'next/app'
-import Router from 'next/router'
-import React from 'react'
+import type { AppProps } from 'next/app'
 
-declare global {
-  interface Window {
-    ga: (action: 'send', type: 'pageview', path: string) => void
-  }
+import '../styles/globals.css'
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
 }
 
-interface Props {
-  Component: React.Component
-  pageProps: object
-}
-
-export default class MyApp extends App<Props> {
-  componentDidMount() {
-    Router.events.on('routeChangeComplete', url => {
-      global.console.log('$pageview', url)
-      if (window.ga) {
-        window.ga('send', 'pageview', url)
-      }
-    })
-  }
-
-  render() {
-    const { Component, pageProps } = this.props
-
-    return (
-      <Container>
-        <Component {...pageProps}/>
-      </Container>
-    )
-  }
-}
+export default MyApp
