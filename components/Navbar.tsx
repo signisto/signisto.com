@@ -7,7 +7,7 @@ import logo from '../public/images/logo-light-shadow.svg'
 const Navbar: React.FC = () => {
   return (
     <Link href='/'>
-      <a className='flex items-center text-white mx-auto py-10'>
+      <a className='flex items-center text-white mx-auto py-10 flex-grow-0 navbar'>
         <Image src={logo} alt='Signisto Logo' width={48} height={48} />
         <span className='ml-3 text-4xl'>Signisto</span>
       </a>

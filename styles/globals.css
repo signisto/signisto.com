@@ -16,6 +16,13 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+}
+#__next > * {
+  flex-grow: 1;
+}
+#__next > footer, #__next > .navbar {
+  flex-grow: 0;
 }
 
 
