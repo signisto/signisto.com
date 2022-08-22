@@ -1,11 +1,12 @@
 # Cache
 .next
 
-# Dependencies
+# Dependencies
 node_modules
 
 # Output directory
 dist
+out
 
 # Logs
 *.log

@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "build": "next build && next export",
     "lint": "tslint components/* pages/*",
     "start:dev": "next --hostname 0.0.0.0 -p 3000",
     "test": "jest test",
