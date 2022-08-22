@@ -4,8 +4,6 @@ import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 
-import '../stylesheets/application.css'
-
 const defaultTitle = 'Signisto'
 const defaultDescription = 'Software Development &amp; Consultancy'
 
