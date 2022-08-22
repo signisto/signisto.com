@@ -16,7 +16,9 @@ export default class Navbar extends Component {
       document.body.className = document.body.className.trim() + ' is-scrolled'
       this.bodyClassNameIsScrolled = true
     } else if (window.scrollY <= 50 && this.bodyClassNameIsScrolled === true) {
-      document.body.className = document.body.className.replace('is-scrolled', '').trim()
+      document.body.className = document.body.className
+        .replace('is-scrolled', '')
+        .trim()
       this.bodyClassNameIsScrolled = false
     }
   }
@@ -26,13 +28,16 @@ export default class Navbar extends Component {
       <div id='navbar' className='fixed flex w-full p-3'>
         <Link href='/'>
           <a className='flex items-center text-white'>
-            <img src='/static/images/logo-light-shadow.svg' alt='Signisto Logo' width='60' height='60'/>
-            <span className='ml-3 text-4xl'>
-              Signisto
-            </span>
+            <img
+              src='/static/images/logo-light-shadow.svg'
+              alt='Signisto Logo'
+              width='60'
+              height='60'
+            />
+            <span className='ml-3 text-4xl'>Signisto</span>
           </a>
         </Link>
-        <ul className='ml-auto hidden md:flex items-center'>
+        <ul className='items-center hidden ml-auto md:flex'>
           <li>
             <Link href='/services'>
               <a className='btn btn-primary'>Services</a>
