@@ -21,10 +21,15 @@ const Page: NextPage = () => (
       <h1 className='mt-10 mb-3 text-3xl md:text-5xl'>
         Software Development &amp; Consulting
       </h1>
-      <p>We specialize in creating data rich applications for your business</p>
+      <p>
+        <span className='ml-1'>We specialize in creating</span>
+        <br className='sm:hidden' />
+        <span className='ml-1 font-bold'>data rich applications</span>
+        <br className='sm:hidden' />
+        <span className='ml-1'>for your business</span>
+      </p>
 
       <div className='mb-auto mt-10'>
-        <Button href='/services'>Learn More</Button>
         <Button href='/contact-us'>Get in touch</Button>
       </div>
     </div>

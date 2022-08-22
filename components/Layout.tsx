@@ -25,7 +25,7 @@ const Layout: React.FC<Props> = ({
   <>
     <Head>
       <title>{title}</title>
-      <meta name='desription' content={description} />
+      <meta name='description' content={description} />
       <link
         rel='stylesheet'
         href='//fonts.googleapis.com/css?family=Exo:400,800'
