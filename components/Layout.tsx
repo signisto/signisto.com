@@ -30,7 +30,7 @@ const Layout: React.FC<Props> = ({
         rel='stylesheet'
         href='//fonts.googleapis.com/css?family=Exo:400,800'
       />
-      <link rel='icon' href='/static/favicon.png' />
+      <link rel='icon' href='/favicon.png' />
       <meta name='author' content='https://marcqualie.com' />
     </Head>
     {navbar && <Navbar />}

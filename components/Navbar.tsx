@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React, { Component } from 'react'
 
@@ -28,8 +29,8 @@ export default class Navbar extends Component {
       <div id='navbar' className='fixed flex w-full p-3'>
         <Link href='/'>
           <a className='flex items-center text-white'>
-            <img
-              src='/static/images/logo-light-shadow.svg'
+            <Image
+              src='/images/logo-light-shadow.svg'
               alt='Signisto Logo'
               width='60'
               height='60'

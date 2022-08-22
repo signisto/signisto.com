@@ -91,16 +91,6 @@ const Footer: React.FC = () => (
             Twitter
           </a>
         </li>
-        <li className='px-4'>
-          <a
-            className='text-link'
-            href='https://www.facebook.com/signisto'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Facebook
-          </a>
-        </li>
         <li className='px-4 mr-auto'>
           <a
             className='text-link'
@@ -113,7 +103,9 @@ const Footer: React.FC = () => (
         </li>
       </ul>
 
-      <div className='mt-8 text-sm text-gray-600'>&copy; 2019 Signisto Ltd</div>
+      <div className='mt-8 text-sm text-gray-600'>
+        &copy; {new Date().getFullYear()} Signisto Ltd
+      </div>
     </div>
   </footer>
 )
